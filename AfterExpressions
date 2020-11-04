@@ -1,0 +1,24 @@
+//Path LoopOut
+
+valueAtTime(time%key(numKeys).time)
+
+_________________________________________________________________________________________________________
+
+//automatically synch audio across different compositions (https://www.youtube.com/watch?v=b2nwO2Kbd8U)
+
+1.precomp audio tracks
+2.drop your new audio precomp into an exiting precomp in your timeline.
+3.apply "Time-remap" to that audio precomp
+4. paste this expression:
+
+MasterC = "Name of you main composition here";
+PreC = thisComp.name;
+
+C = comp(MasterC);
+L = C.layer(PreC);
+Main_T = time + L.startTime;
+
+5.type the exact name of your main composition.
+
+6.set it as a Guide Layer and copy it in any comp that you want.
+

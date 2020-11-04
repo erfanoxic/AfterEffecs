@@ -1,3 +1,0 @@
-//Path LoopOut
-
-valueAtTime(time%key(numKeys).time)
