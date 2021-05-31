@@ -28,3 +28,9 @@ Round Numbers:
 in source text type:
 
 Math.round(effect("Slider Control")("Slider"))
+
+return decimal:
+
+Math.round(effect("Slider Control")("Slider")*10)/10
+
+Math.round(effect("Slider Control")("Slider")*100)/100
