@@ -22,3 +22,9 @@ Main_T = time + L.startTime;
 
 6.set it as a Guide Layer and copy it in any comp that you want.
 
+----------------------------------------------------------------------------------------------------------
+Round Numbers:
+
+in source text type:
+
+Math.round(effect("Slider Control")("Slider"))
