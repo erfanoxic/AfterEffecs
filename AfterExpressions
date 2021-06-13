@@ -34,3 +34,17 @@ return decimal:
 Math.round(effect("Slider Control")("Slider")*10)/10
 
 Math.round(effect("Slider Control")("Slider")*100)/100
+
+------------------------------------------------------------------------------------------------------
+Wiggle Between two Value:
+
+
+minVal = -8;
+maxVal = 4;
+freq = 1; // oscillations per second
+avgVal = (minVal + maxVal)/2;
+amp = (maxVal - minVal)/2
+avgVal + amp*(Math.sin(time*freq*Math.PI*2))
+
+
+
