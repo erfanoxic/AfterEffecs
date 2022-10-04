@@ -50,10 +50,10 @@ avgVal + amp*(Math.sin(time*freq*Math.PI*2))
 DELAY expresion
 
 
-delay = 1
+delay = -0.2
 Poffset   = [683,735];// set to base layer start position 
-target = thisComp.layer("Shape Layer 3").transform.position
+target = thisComp.layer("Shape Layer 3").transform.position // link thisComp to base layer position
 
-value + target.valueAtTime(time + delay) - Poffset // link thisComp to base layer position
+value + target.valueAtTime(time + delay) - Poffset 
 
 
