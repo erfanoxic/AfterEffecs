@@ -51,8 +51,8 @@ DELAY expresion
 
 
 delay = -0.2
-Poffset   = [683,735];// set to base layer start position 
-target = thisComp.layer("Shape Layer 3").transform.position // link thisComp to base layer position
+Poffset   = [683,735]; // set numbers manually to target layer start position 
+target = thisComp.layer("Shape Layer 3").transform.position // link thisComp to target layer position
 
 value + target.valueAtTime(time + delay) - Poffset 
 
