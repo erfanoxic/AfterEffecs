@@ -57,3 +57,11 @@ target = thisComp.layer("Shape Layer 3").transform.position // link thisComp to 
 value + target.valueAtTime(time + delay) - Poffset 
 
 
+--------------------------------------------------------------------------------------------------------------
+Bouncing Expression
+
+
+
+
+
+
