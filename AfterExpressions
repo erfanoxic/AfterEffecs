@@ -83,6 +83,9 @@ value + (v/100)*amp*Math.sin(freq*t*2*Math.PI)/Math.exp(decay*t);
 value;
 }
 
-
+--------------------------------------------------------------------------------------------------------------
+for use sprite in Particle World
+like particular you have to create 1 frame Sprite Sheet comp for texture particles and imported to main comp
+in the main Comp you have to Time Remap the Sprite Sheet Comp and LoopOut the TimeReMap Key Frames
 
 
