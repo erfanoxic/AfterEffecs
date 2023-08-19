@@ -84,8 +84,14 @@ value;
 }
 
 --------------------------------------------------------------------------------------------------------------
-for use sprite in Particle World
-like particular you have to create 1 frame Sprite Sheet comp for texture particles and imported to main comp
-in the main Comp you have to Time Remap the Sprite Sheet Comp and LoopOut the TimeReMap Key Frames
+To use sprites in Particle World
+like particular, you must create 1 frame Sprite Sheet comp for texture particles and import it to the main comp.
+in the main Comp, you have to do Time Remap the Sprite Sheet Comp and LoopOut the TimeReMap Key Frames
+
+
+--------------------------------------------------------------------------------------------------------------
+for looping footage that has Alpha
+after splitting and crossfading footage, you should set the Blending Mode of the top Clip to ADD ALPHA 
+
 
 
