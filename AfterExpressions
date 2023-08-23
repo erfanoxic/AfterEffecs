@@ -90,8 +90,10 @@ in the main Comp, you have to do Time Remap the Sprite Sheet Comp and LoopOut th
 
 
 --------------------------------------------------------------------------------------------------------------
-for looping footage that has Alpha
-after splitting and crossfading footage, you should set the Blending Mode of the top Clip to ADD ALPHA 
+For looping footage that has Alpha
+After splitting and crossfading footage, you should set the Blending Mode of the top Clip to ADD ALPHA 
 
-
+--------------------------------------------------------------------------------------------------------------
+-The key to realistic motion between 2 different poses is using the Motion Blur(Directional blur) at the end of pose one when Opacity decreases.
+-you should use a fast Crossfade about 5-10 frame long.
 
